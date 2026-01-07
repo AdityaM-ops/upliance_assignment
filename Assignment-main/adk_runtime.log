@@ -1,0 +1,167 @@
+{"ts": "2026-01-07T09:14:25.853576Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2wdd__7m\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.854081Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.854522Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:14:25.855933Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2wdd__7m\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.859984Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpe1c__81y\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.860402Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.860710Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:14:25.861418Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpe1c__81y\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.863819Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpe1c__81y\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.865070Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.866051Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpe1c__81y\\game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.895667Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.898385Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.899309Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:14:25.900173Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.928458Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.929002Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.929289Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T09:14:25.930209Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json", "round_number": 2, "user_score": 0, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.932385Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.932688Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.932912Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T09:14:25.933365Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpotw7p6q3\\game_state.json", "round_number": 3, "user_score": 0, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.958031Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp0qop_bgu\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.958326Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:14:25.959429Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp0qop_bgu\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:51.380287Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:51.381336Z", "tool": "validate_move", "kwargs": {"move": "paper", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:51.381946Z", "tool": "resolve_round", "kwargs": {"user_move": "paper", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T09:15:51.382993Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 2, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:56.345686Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:56.346636Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:56.347108Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T09:15:56.348652Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 3, "user_score": 0, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:59.717378Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:59.719239Z", "tool": "reset_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:59.719814Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:15:59.720583Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:15:59.721364Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:00.535510Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:00.536265Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:00.537226Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:08.531117Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:08.531606Z", "tool": "validate_move", "kwargs": {"move": "scissors", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:16:08.532034Z", "tool": "resolve_round", "kwargs": {"user_move": "scissors", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T09:16:08.532996Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 3, "user_score": 1, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.958357Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp5o1l9o12\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.958954Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.960439Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:16.962933Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp5o1l9o12\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.969809Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp1f_fdhy4\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.970132Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.970404Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:16.970934Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp1f_fdhy4\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.972137Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp1f_fdhy4\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.972488Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.974779Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp1f_fdhy4\\game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.977990Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.978253Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:16.978483Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:16.979050Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.003775Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.004159Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.004456Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:17.005119Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json", "round_number": 2, "user_score": 0, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.006733Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.007187Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.007549Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:17.010542Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpem97au8l\\game_state.json", "round_number": 3, "user_score": 0, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.013144Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpqzrocbpe\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.013570Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:17.014448Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpqzrocbpe\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:48.972092Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:48.972904Z", "tool": "reset_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:48.973251Z", "tool": "validate_move", "kwargs": {"move": "paper", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:29:48.973578Z", "tool": "resolve_round", "kwargs": {"user_move": "paper", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T09:29:48.974130Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:48.648509Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:48.649148Z", "tool": "validate_move", "kwargs": {"move": "paper", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:48.650060Z", "tool": "resolve_round", "kwargs": {"user_move": "paper", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T09:45:48.651266Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:51.972548Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:51.973222Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T09:45:51.973772Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T09:45:51.974724Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 3, "user_score": 1, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.922764Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpiaaikw3i\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.924898Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.926528Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T10:03:59.927538Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpiaaikw3i\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.947218Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmptzzy9afx\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.947759Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.948125Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "scissors"}, "result_type": "str"}
+{"ts": "2026-01-07T10:03:59.948755Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmptzzy9afx\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.950122Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmptzzy9afx\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.950443Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.950965Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmptzzy9afx\\game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.966395Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.967302Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.967720Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "scissors"}, "result_type": "str"}
+{"ts": "2026-01-07T10:03:59.968378Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.983132Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.983444Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:03:59.983855Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "scissors"}, "result_type": "str"}
+{"ts": "2026-01-07T10:03:59.984577Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json", "round_number": 2, "user_score": 2, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.004142Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.004468Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.004723Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:00.005188Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpce0g1vgw\\game_state.json", "round_number": 3, "user_score": 3, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.030667Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpcllsf5b0\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.031131Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:00.032122Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpcllsf5b0\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.686986Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpn8uy8lj8\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.689172Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.689791Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:41.690606Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpn8uy8lj8\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.696335Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmphpu632yj\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.696813Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.697240Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:41.698180Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmphpu632yj\\game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.700287Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmphpu632yj\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.701833Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.702823Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmphpu632yj\\game_state.json", "round_number": 2, "user_score": 1, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.705030Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.705383Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.705662Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:41.706471Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.710042Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.710419Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.710909Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:41.711737Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json", "round_number": 2, "user_score": 0, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.730495Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.730881Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.731141Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T10:04:41.731929Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmp2mcxkwo9\\game_state.json", "round_number": 3, "user_score": 0, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.752172Z", "tool": "load_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpfaapxwg3\\game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.752673Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:04:41.753645Z", "tool": "update_game_state", "kwargs": {"path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpfaapxwg3\\game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:16.288788Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:16.289755Z", "tool": "reset_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:16.290117Z", "tool": "validate_move", "kwargs": {"move": "paper", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:16.290547Z", "tool": "resolve_round", "kwargs": {"user_move": "paper", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T10:05:16.291275Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:20.493686Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:20.494238Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:20.494679Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T10:05:20.495515Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 2, "user_score": 2, "bot_score": 0, "user_used_bomb": true, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:25.179990Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:25.180561Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:05:25.181014Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T10:05:25.181833Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 3, "user_score": 2, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:20.690994Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:20.692250Z", "tool": "reset_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:20.692693Z", "tool": "validate_move", "kwargs": {"move": "paper", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:20.693171Z", "tool": "resolve_round", "kwargs": {"user_move": "paper", "bot_move": "rock"}, "result_type": "str"}
+{"ts": "2026-01-07T10:07:20.693939Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 1, "user_score": 1, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:22.613805Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:22.614370Z", "tool": "validate_move", "kwargs": {"move": "rock", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:22.614832Z", "tool": "resolve_round", "kwargs": {"user_move": "rock", "bot_move": "paper"}, "result_type": "str"}
+{"ts": "2026-01-07T10:07:22.615784Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 2, "user_score": 1, "bot_score": 1, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:25.120435Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:25.121000Z", "tool": "validate_move", "kwargs": {"move": "bomb", "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:07:25.121560Z", "tool": "resolve_round", "kwargs": {"user_move": "bomb", "bot_move": "bomb"}, "result_type": "str"}
+{"ts": "2026-01-07T10:07:25.122445Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 3, "user_score": 1, "bot_score": 1, "user_used_bomb": true, "bot_used_bomb": true}, "result_type": "dict"}
+{"ts": "2026-01-07T10:29:12.257976Z", "tool": "load_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:29:12.258910Z", "tool": "reset_game_state", "kwargs": {"path": "game_state.json"}, "result_type": "dict"}
+{"ts": "2026-01-07T10:29:12.259395Z", "tool": "validate_move", "kwargs": {"move": null, "user_used_bomb": false}, "result_type": "dict"}
+{"ts": "2026-01-07T10:29:12.260158Z", "tool": "update_game_state", "kwargs": {"path": "game_state.json", "round_number": 1, "user_score": 0, "bot_score": 0, "user_used_bomb": false, "bot_used_bomb": false}, "result_type": "dict"}
