@@ -31,11 +31,11 @@ def validate_move(move: Optional[str], used_bomb: bool) -> Tuple[bool, Optional[
 
 
 def generate_bot_move(bot_used_bomb: bool, round_number: int) -> str:
-    """Deterministic bot move for reproducible runs.
+    """Deterministic bot move for reproducible runs with bomb pattern.
 
-    Strategy (deterministic):
-    - Use a simple round-based selection: 0->rock,1->paper,2->scissors
-    - If bot hasn't used bomb and round_number == 2, bot will play `bomb`.
+    Strategy:
+    - If bot hasn't used bomb and round_number % 3 == 2, play `bomb`.
+    - Otherwise cycle rock -> paper -> scissors by round_number.
     """
     if (not bot_used_bomb) and round_number % 3 == 2:
         return "bomb"
@@ -74,27 +74,27 @@ def resolve_round(user_move: Optional[str], bot_move: Optional[str]) -> str:
 
 
 def format_round_response(round_number: int, user_move: str, bot_move: str, result: str, user_score: int, bot_score: int, reason: str = None) -> str:
-    """Response generation: concise per-round message (≤4 lines).
+    """Response generation: exactly 4 lines with required format.
 
-    Format:
-    Round X
-    User move / Bot move
-    Result (+ reason if invalid)
-    Updated score
+    Lines:
+    1) Round X
+    2) <user_move> / <bot_move>
+    3) Result: <result or result – reason>
+    4) User <user_score> | Bot <bot_score>
     """
-    # For any invalid outcome, present the standardized message required by spec
     if result == "Invalid":
-        result_line = "Invalid – round wasted"
+        result_line = "Invalid – round wasted" if reason is None else f"Invalid – {reason}"
     else:
         result_line = result
-    
-    lines = [
-        f"Round {round_number}",
-        f"User move: {user_move} / Bot move: {bot_move}",
-        f"Result: {result_line}",
-        f"Score -> User: {user_score} | Bot: {bot_score}"
-    ]
-    return "\n".join(lines)
+
+    return "\n".join(
+        [
+            f"Round {round_number}",
+            f"{user_move} / {bot_move}",
+            f"Result: {result_line}",
+            f"User {user_score} | Bot {bot_score}",
+        ]
+    )
 
 
 def final_result_message(user_score: int, bot_score: int) -> str:

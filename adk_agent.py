@@ -1,27 +1,23 @@
 """
 ADK Agent: Google ADK-native game referee for Rock-Paper-Scissors-Plus.
 
-Uses official Google ADK FunctionTool wrappers for tool invocation.
-All state mutations go exclusively through the ADK tool system (single mutation point).
-
-Key Design:
-- Tools are FunctionTool instances registered with the Agent
-- Direct tool execution via FunctionTool interface (not LLM-mediated)
-- Pure game logic (rps_plus) remains decoupled
-- All state access/mutations through tool layer
+Enforces:
+- All tool calls go through the Agent.invoke_tool API.
+- Single mutation point: only the update_game_state tool writes game_state.json.
+- Deterministic, evidence-bound invocation logging (adk_runtime.log).
 """
 
+import json
+from datetime import datetime
+from pathlib import Path
+
 import rps_plus
-from google.adk.agents.llm_agent import Agent
+from google.adk import Agent, tool
 from adk_core import GameState
-from adk_game_tools import (
-    GAME_TOOLS,
-    load_game_state,
-    update_game_state,
-    validate_move,
-    resolve_round,
-    reset_game_state,
-)
+from adk_game_tools import GAME_TOOLS
+
+USE_ADK_RUNTIME = True
+ADK_LOG_PATH = Path("adk_runtime.log")
 
 
 class GameRefereeAgent:
@@ -35,13 +31,33 @@ class GameRefereeAgent:
     
     def __init__(self):
         """Initialize Game Referee Agent with Google ADK tools."""
-        # Create agent with tools (for schema/registry purposes)
-        self._agent = Agent(
-            name="GameRefereeAgent",
-            model="gemini-1.5-flash",  # Required by ADK Agent, but not used for direct tool calls
-            tools=GAME_TOOLS,
-        )
-        print(f"[ADK INIT] GameRefereeAgent initialized with {len(GAME_TOOLS)} FunctionTool-wrapped tools")
+        if not USE_ADK_RUNTIME:
+            raise RuntimeError("ADK runtime must be enabled (USE_ADK_RUNTIME=True)")
+
+        self._agent = Agent("GameRefereeAgent", tools=GAME_TOOLS)
+        print(f"[ADK INIT] GameRefereeAgent initialized with {len(GAME_TOOLS)} tools")
+
+    def _log_invocation(self, tool_name: str, kwargs: dict, result: object) -> None:
+        """Append a concise invocation log line for evidence-bound tracing."""
+        ADK_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with ADK_LOG_PATH.open("a", encoding="utf-8") as f:
+            f.write(
+                json.dumps(
+                    {
+                        "ts": datetime.utcnow().isoformat() + "Z",
+                        "tool": tool_name,
+                        "kwargs": kwargs,
+                        "result_type": type(result).__name__,
+                    }
+                )
+                + "\n"
+            )
+
+    def _invoke_tool(self, tool_name: str, **kwargs):
+        """Call an ADK tool via Agent.invoke_tool with logging."""
+        result = self._agent.invoke_tool(tool_name, **kwargs)
+        self._log_invocation(tool_name, kwargs, result)
+        return result
     
     def play_round(self, user_raw_move: str, state_path: str = "game_state.json") -> str:
         """Play one round using ADK FunctionTool-wrapped tool invocation (runtime-only).
@@ -60,7 +76,7 @@ class GameRefereeAgent:
         
         # Step 1: Load state via ADK FunctionTool
         print(f"[ADK TOOL] load_game_state(path={state_path!r})")
-        loaded = load_game_state(path=state_path)
+        loaded = self._invoke_tool("load_game_state", path=state_path)
         if isinstance(loaded, dict):
             state = GameState.from_dict(loaded)
         else:
@@ -69,7 +85,7 @@ class GameRefereeAgent:
         # Step 2: Auto-reset if game finished
         if state.round_number >= 3:
             print(f"[ADK TOOL] reset_game_state(path={state_path!r})")
-            reset_res = reset_game_state(path=state_path)
+            reset_res = self._invoke_tool("reset_game_state", path=state_path)
             if isinstance(reset_res, dict):
                 state = GameState.from_dict(reset_res)
             else:
@@ -80,7 +96,7 @@ class GameRefereeAgent:
         
         # Step 4: Validate via ADK FunctionTool
         print(f"[ADK TOOL] validate_move(move={user_move!r}, user_used_bomb={state.user_used_bomb})")
-        val_res = validate_move(move=user_move, user_used_bomb=state.user_used_bomb)
+        val_res = self._invoke_tool("validate_move", move=user_move, user_used_bomb=state.user_used_bomb)
         if isinstance(val_res, dict):
             is_valid = bool(val_res.get("is_valid"))
             reason = val_res.get("reason")
@@ -95,7 +111,7 @@ class GameRefereeAgent:
             result = "Invalid"
         else:
             print(f"[ADK TOOL] resolve_round(user_move={user_move!r}, bot_move={bot_move!r})")
-            result = resolve_round(user_move=user_move, bot_move=bot_move)
+            result = self._invoke_tool("resolve_round", user_move=user_move, bot_move=bot_move)
         
         # Step 7: Build delta dict (single mutation point semantics)
         deltas = {"round_increment": 1}
@@ -127,7 +143,8 @@ class GameRefereeAgent:
             f"bot_score={new_bot_score}, user_used_bomb={new_user_used_bomb}, "
             f"bot_used_bomb={new_bot_used_bomb})"
         )
-        updated = update_game_state(
+        updated = self._invoke_tool(
+            "update_game_state",
             path=state_path,
             round_number=new_round,
             user_score=new_user_score,
